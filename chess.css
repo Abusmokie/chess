@@ -1,0 +1,30 @@
+.container{
+	margin:auto;
+	width: 80vh;
+	height:80vh;
+	border:12px solid #070606;
+    border-radius:10px;
+}
+
+.row{
+	height:12.5%;
+	background:#857878;
+}
+ .col{
+	height:100%;
+	width:12.5%;
+    float: left;
+}
+
+.white{
+	background:#f0ececee;
+}
+.black{
+	background:#555353;
+} 
+.fromtileclass {
+	background:hsl(102, 95%, 46%);
+}
+.totileclass{
+	background:#e50606;
+}

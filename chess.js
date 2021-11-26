@@ -14,11 +14,13 @@ draggables.forEach(draggable => {
 		draggable.parentNode.classList.add('fromtileclass')
 		draggable.id = "current"
 	})
-	draggable.addEventListener('touchstart',() => {
+	draggable.addEventListener('touchstart',(e) => {
+		e.preventDefault()
 		draggable.parentNode.classList.add('fromtileclass')
 		draggable.id = "current"
 	})
-	draggable.addEventListener('touchcancel',() => {
+	draggable.addEventListener('touchcend',(e) => {
+		e.preventDefault()
 		draggable.removeAttribute('id')
 		document.querySelector('.fromtileclass').classList.remove('fromtileclass')
 	})

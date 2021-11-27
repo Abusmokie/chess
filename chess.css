@@ -1,5 +1,12 @@
+body{
+	background-color: #a9e2e2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
 .container{
-	margin:auto;
+	/* margin:auto; */
 	width: 80vh;
 	height:80vh;
 	border:12px solid #070606;
